@@ -5,7 +5,7 @@
   "description": "docx and pptx generator working with templates and data (like Mustache, for Word and Powerpoint documents)",
   "contributors": [
     {
-      "name": "Edgar Hipp",
+      "name": "Edgar Hipp"
     }
   ],
   "main": "js/docxtemplater.js",
