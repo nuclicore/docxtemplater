@@ -34,14 +34,14 @@ function getValue(tag, meta, num) {
 	let result;
 
 	let parser;
-	if (!this.cachedParsers || !meta.part) {
+	if (!this.cachedParsers || !meta?.part) {
 		parser = this.parser(tag, {
 			scopePath: this.scopePath,
 		});
-	} else if (this.cachedParsers[meta.part.lIndex]) {
+	} else if (this.cachedParsers[meta?.part.lIndex]) {
 		parser = this.cachedParsers[meta.part.lIndex];
 	} else {
-		parser = this.cachedParsers[meta.part.lIndex] = this.parser(tag, {
+		parser = this.cachedParsers[meta?.part.lIndex] = this.parser(tag, {
 			scopePath: this.scopePath,
 		});
 	}
