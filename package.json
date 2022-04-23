@@ -1,11 +1,12 @@
 {
-  "name": "docxtemplater",
+  "name": "nuclicore/docxtemplater",
   "version": "3.29.1",
   "author": "Edgar Hipp",
   "description": "docx and pptx generator working with templates and data (like Mustache, for Word and Powerpoint documents)",
   "contributors": [
     {
-      "name": "Edgar Hipp"
+      "name": "Edgar Hipp",
+      "name": "Anel Bejtovic"
     }
   ],
   "main": "js/docxtemplater.js",
@@ -21,7 +22,7 @@
   "types": "./js/docxtemplater.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/open-xml-templating/docxtemplater"
+    "url": "https://github.com/nuclicore/docxtemplater"
   },
   "dependencies": {
     "@xmldom/xmldom": "^0.8.2"
