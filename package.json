@@ -1,12 +1,11 @@
 {
-  "name": "nuclicore/docxtemplater",
+  "name": "@nuclicore/docxtemplater",
   "version": "3.29.1",
   "author": "Edgar Hipp",
   "description": "docx and pptx generator working with templates and data (like Mustache, for Word and Powerpoint documents)",
   "contributors": [
     {
       "name": "Edgar Hipp",
-      "name": "Anel Bejtovic"
     }
   ],
   "main": "js/docxtemplater.js",
